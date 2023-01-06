@@ -65,6 +65,7 @@ header {
     display: flex;
     justify-content: space-around;
     width: 900px;
+    cursor: pointer;
 }
 
 .amount-box {
