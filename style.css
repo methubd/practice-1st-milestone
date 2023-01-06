@@ -1,0 +1,32 @@
+/* this is my header part */
+header {
+    color: white;
+    text-align: center;
+    background-image: url(./assets/images/donation0.jpg);
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    width: auto;
+
+}
+
+.web-title {}
+
+.description {
+    font-weight: 400;
+    font-size: 10px;
+    width: 691px;
+
+}
+
+.btn-primary {
+    background-color: #FF5959;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 5px;
+
+}
