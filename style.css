@@ -1,6 +1,6 @@
 * {
     margin: 0 0 0 0;
-    width: 1440px;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -23,7 +23,6 @@ header {
     font-weight: 700;
     font-size: 50px;
     line-height: 55px;
-
 }
 
 .description {
@@ -35,6 +34,7 @@ header {
     margin-bottom: 30px;
     text-align: center;
     color: #919191;
+    overflow-wrap: break-word;
 }
 
 .btn-primary {
@@ -55,8 +55,18 @@ header {
     background-color: #0f7502;
 }
 
-/* Donate Today Detail Styles */
-.our-donate-plan {}
+/* Donate Today Styles */
+.our-donate-plan {
+    
+}
+
+.donate-for{
+    width: 1300px;    
+}
+
+.food-for-family{
+    
+}
 
 .donate-today-heading {
     text-align: center;
@@ -70,8 +80,9 @@ header {
 .donate-amount {
     display: flex;
     justify-content: space-around;
-    width: 900px;
+    width: 800px;
     cursor: pointer;
+    flex-wrap: wrap;
 }
 
 .amount-box {
@@ -80,10 +91,11 @@ header {
     background-color: #eeeeee;
     border-radius: 5px;
     border: 2px solid white;
+    transition: 0.5s;
 }
 
 .amount-box :hover {
-    border: 1px solid #FF5959;
+    border: 1px solid #f7b28a;
     width: 135px;
     height: 80px;
     border-radius: 5px;
@@ -109,6 +121,7 @@ header {
     padding-top: 50px;
     font-size: large;
 }
+
 
 .custom-amount-input {
     border: none;
